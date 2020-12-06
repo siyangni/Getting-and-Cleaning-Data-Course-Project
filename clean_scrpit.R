@@ -1,18 +1,18 @@
 library(dplyr)
 
 # Loading the dataset
-filename <- "Coursera_DS3_Final.zip"
+dest <- "Coursera_DS3_Final.zip"
 
 ## Checking if file exists.
-if (!file.exists(filename)){
+if (!file.exists(dest)){
         fileURL <- "https://d396qusza40orc.cloudfront.net/
         getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
-        download.file(fileURL, filename)
+        download.file(fileURL, dest)
 }  
 
 ## Checking if folder exists and unzip if yes
 if (!file.exists("UCI HAR Dataset")) { 
-        unzip(filename) 
+        unzip(dest) 
 }
 
 # Load each one of the datasets
