@@ -4,8 +4,8 @@ This repository is for JHU's Getting and Cleaning Data course project.
 This document explains the content of this repo.
 
 ### Dataset
-[Human Activity Recognition Using Smartphones]
-(http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)
+[Human Activity Recognition Using Smartphones](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)
+
 The original dataset is not included in this repo, it can be retrieved through the above link. 
 
 ### Files
